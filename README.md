@@ -1,4 +1,3 @@
-# TrueOcean
 True Ocean (Base16) Theme for Brackets
 ============================
 
