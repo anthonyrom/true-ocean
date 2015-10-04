@@ -1,0 +1,153 @@
+/* Define variables: Directly from CSS of http://chriskempson.github.io/base16/#ocean */
+
+@base00: #2b303b;
+@base01: #343d46;
+@base02: #4f5b66;
+@base03: #65737e;
+@base04: #a7adba;
+@base05: #c0c5ce;
+@base06: #dfe1e8;
+@base07: #eff1f5;
+@base08: #bf616a;
+@base09: #d08770;
+@base0A: #ebcb8b;
+@base0B: #a3be8c;
+@base0C: #96b5b4;
+@base0D: #8fa1b3;
+@base0E: #b48ead;
+@base0F: #ab7967;
+
+/* Code Styling */
+
+.CodeMirror {
+    // Gotta have that sweet sweet line spacing
+    line-height: 1.2;
+}
+
+.CodeMirror-scroll {
+    // Background color of main window
+    background-color: @base00;
+    // Color of otherwise un-styled text
+    color: @base06;
+}
+
+.CodeMirror-gutters {
+    // Gutter to the left
+    background-color: @base00;
+}
+
+.CodeMirror-linenumber {
+    // Line numbers in the gutter
+    color: @base03;
+}
+
+.CodeMirror-selected {
+    // Highlighed text
+    background-color: @base02;
+}
+
+.CodeMirror-cursor {
+    // The cursor
+    border-left: 1px solid @base06;
+}
+
+.CodeMirror-matchingbracket, .CodeMirror-matchingtag {
+    // When you click a tag/bracket and the matching one is highlighted
+    background: @base02 !important;
+    color: @base06 !important;
+    border-bottom: 1px solid @base08 !important;
+}
+
+.CodeMirror-foldgutter-open:after {
+    // Those little arrows in the gutter
+    color: @base03;
+}
+.CodeMirror-foldgutter-folded:after {
+    // The arrows after you collapse code
+    color: @base04;
+}
+
+.CodeMirror.over-gutter, .CodeMirror-activeline {
+    .CodeMirror-foldgutter-open:after {
+        // Arrows when hovering on the gutter
+        color: @base06;
+    }
+}
+
+.CodeMirror-foldmarker {
+    // The [...] marking collapsed code
+    border-color: @base06;
+    background-color: @base06;
+    color: @base02;
+}
+
+.CodeMirror-searching {
+    // Ctrl + F results
+    background-color: @base0A;
+    // Selected result
+    &.searching-current-match {
+        background-color: @base09;
+    }
+}
+
+/* Non-editor Styling */
+
+#image-holder,
+#not-editor {
+    background-color: @base00;
+}
+
+#image-holder {
+    color: @base04;   
+}
+
+.view-pane .image-view {
+    color: @base06;
+}
+
+/* All 'dem swatches */
+
+.cm-atom, .cm-string, .cm-string-2, .cm-hr, {
+    color: @base0B;
+}
+
+.cm-number, .cm-attribute, .cm-plus {
+    color: @base0A;
+}
+
+.cm-def, .cm-property {
+    color: @base0C;
+}
+
+.cm-variable, .cm-variable-2, .cm-variable-3 {
+    color: @base0E;   
+}
+
+.cm-operator, .cm-meta, .cm-bracket {
+    color: @base06;
+}
+
+.cm-comment {
+    color: @base03;
+}
+
+.cm-error, .cm-minus {
+    color: @base09;
+}
+
+.cm-header {
+    color: @base0E;
+}
+
+.cm-link {
+    color: @base0E;
+    text-decoration: none;
+}
+
+.cm-rangeinfo {
+    color: @base0C;
+}
+
+.cm-keyword, .cm-qualifier, .cm-builtin, .cm-tag, .cm-quote {
+    color: @base08;
+}
