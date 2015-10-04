@@ -8,10 +8,10 @@ Please critique how I have implemented the colors, and offer suggestions as to h
 I do not claim credit for the color scheme - this is the work of [Chris Kempson](http://chriskempson.com). I have simply made this color scheme a theme compatible with Brackets.
 
 ## HTML
-![HTML Screenshot]()
+![HTML!](https://github.com/anthonyrom/TrueOcean/blob/master/screenshots/html.png)
 
 ## CSS
-![CSS Screenshot]()
+![CSS!](https://github.com/anthonyrom/TrueOcean/blob/master/screenshots/css.png)
 
 ## JS
-![JS Screenshot]()
+![JavaScript!](https://github.com/anthonyrom/TrueOcean/blob/master/screenshots/js.png)
