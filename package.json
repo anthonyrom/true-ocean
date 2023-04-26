@@ -1,15 +1,15 @@
 {
-    "name": "true-ocean",
+    "name": "anthonyrom.true-ocean",
     "title": "True Ocean - Base16",
     "description": "Completely un-edited Ocean from Base16. No modifications whatsoever.",
     "homepage": "https://github.com/anthonyrom/true-ocean",
-    "version": "1.4.0",
-    "author": "Anthony Romaniello <aromaniello70@gmail.com> (http://awro.xyz)",
+    "version": "1.5.0",
+    "author": "Anthony Romaniello <anthonyrom@pm.me> (http://github.com/anthonyrom)",
     "license": "MIT",
     "theme": {
         "file": "theme.less",
         "dark": true,
         "addModeClass": true
     },
-    "keywords": ["theme, base16, ocean"]
+    "keywords": ["theme", "base16", "ocean"]
 }
