@@ -1,10 +1,18 @@
 {
-    "name": "anthonyrom.true-ocean",
     "title": "True Ocean - Base16",
+    "name": "anthonyrom.true-ocean",
     "description": "Completely un-edited Ocean from Base16. No modifications whatsoever.",
     "homepage": "https://github.com/anthonyrom/true-ocean",
-    "version": "1.5.0",
-    "author": "Anthony Romaniello <anthonyrom@pm.me> (http://github.com/anthonyrom)",
+    "version": "1.5.1",
+    "author": {
+        "name": "Anthony Romaniello",
+        "url": "http://github.com/anthonyrom"
+    },
+    "homepage": "https://github.com/anthonyrom/true-ocean",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/anthonyrom/true-ocean.git"
+    },
     "license": "MIT",
     "theme": {
         "file": "theme.less",
