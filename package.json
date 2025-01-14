@@ -19,5 +19,6 @@
         "dark": true,
         "addModeClass": true
     },
+    "engines": {"brackets": ">=0.34.0" },
     "keywords": ["theme", "base16", "ocean"]
 }
